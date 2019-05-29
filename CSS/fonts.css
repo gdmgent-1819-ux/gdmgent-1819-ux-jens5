@@ -1,0 +1,15 @@
+h2{
+    font-family: 'Merriweather', serif;
+}
+
+p{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+li > a{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#text_location{
+    font-family: 'Montserrat', sans-serif;
+}

@@ -1,0 +1,165 @@
+/************************
+BUTTONS
+************************/
+.homepage{
+    padding-top: 10vh;
+    padding-left: 5vw;
+}
+
+.booking_page{
+    padding-left: 5vw;
+}
+
+.contact_page{
+    padding-left: 5vw;
+}
+
+.button_homepage {
+    background-color: #8A3B94;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.button_homepage:hover {
+    background-color: rgb(135, 0, 153);
+}
+
+.button_korting {
+    background-color: #8A3B94;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.button_korting:hover {
+    background-color: rgb(135, 0, 153);
+}
+
+.button_booking {
+    background-color: #8A3B94;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.button_booking:hover {
+    background-color: rgb(135, 0, 153);
+}
+
+.button_bericht {
+    background-color: #8A3B94;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.button_bericht:hover {
+    background-color: rgb(135, 0, 153);
+}
+
+/************************
+NAVIGATION 
+************************/
+#nav {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgb(0, 0, 0, 0.53);
+    list-style-type: none;
+    display: block;
+    text-decoration: none;
+    width: 100vw;
+    padding: 8px 16px
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    padding: 4px 6px;
+    margin: 4px 10px;
+}
+
+li a:hover {
+    background-color: rgb(0, 0, 0, 0.4);
+    color: rgb(160, 160, 160);
+    filter: blur(1px);
+    transition: all 1s;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+.active{
+    border-bottom: 4px solid #fff;
+}
+
+/****************************
+CARD
+****************************/
+
+#card {
+    width: 30vw;
+    height: 487.875;
+    border: 1px solid black;
+    margin-left: 5vw;
+    position: relative;
+    overflow: hidden;
+}
+
+.title{
+    margin-left: 1.25vw;
+    margin-right: 1.25vw;
+}
+
+.foto{
+    width: 100%;
+    height: 100%;
+    transition: all 1s;
+    object-fit: cover;
+}
+
+.image{
+    width: 504px;
+}
+
+.foto:hover{
+    filter: grayscale(100%);
+}
+
+.text{
+    margin-left: 1.25vw;
+    margin-right: 1.25vw;
+}
