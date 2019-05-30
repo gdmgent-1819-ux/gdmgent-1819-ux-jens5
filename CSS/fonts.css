@@ -1,15 +1,24 @@
+h1{
+    font-family: 'Tangerine', cursive;
+    font-size: 70px;
+}
+
 h2{
     font-family: 'Merriweather', serif;
+    font-size: 40px;
 }
 
 p{
     font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 17px;
 }
 
 li > a{
     font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
 }
 
 #text_location{
     font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
 }
