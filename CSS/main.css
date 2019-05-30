@@ -20,6 +20,12 @@ BGR HOME ABOVE
     border-bottom: 1px solid rgba(0, 0, 0, 0.22);
 }
 
+@media screen and (max-width: 375px) {
+    #name{
+        border-bottom: 0px solid #000;
+    }
+}
+
 #text_location{
     position: absolute;
     top: 85%;
@@ -28,6 +34,13 @@ BGR HOME ABOVE
     color: #fff;
     font-size: 20px;
     max-width: 450px;
+}
+
+@media screen and (max-width: 375px) {
+    .text_location{
+        margin: auto;
+        display: block;
+    }
 }
 
 /**********************
@@ -84,6 +97,14 @@ ul {
     left: 46%;
     color: #8A3B94;
     height: 15vh;
+}
+
+@media screen and (max-width: 375px) {
+    .dropdown{
+        height: 10vh;
+        top: 90%;
+        margin: auto;
+    }
 }
 
 
@@ -196,7 +217,16 @@ ICONS
 }
 
 #container_footer{
-    width: 40vw;
+    width: 10vw;
     margin: auto;
     display: block;
+}
+
+@media screen and (max-width: 375px) {
+    #container_footer{
+        width: 30vw;
+        margin: auto;
+        display: block;
+        margin-top: 2vh;
+    }
 }
