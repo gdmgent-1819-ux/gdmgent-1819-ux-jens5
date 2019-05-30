@@ -1,0 +1,232 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/************************
+BGR HOME ABOVE 
+************************/
+.bgr_home{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+#name {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.22);
+}
+
+@media screen and (max-width: 375px) {
+    #name{
+        border-bottom: 0px solid #000;
+    }
+}
+
+#text_location{
+    position: absolute;
+    top: 85%;
+    left: 5%;
+    transform: translate(0%, -50%);
+    color: #fff;
+    font-size: 20px;
+    max-width: 450px;
+}
+
+@media screen and (max-width: 375px) {
+    .text_location{
+        margin: auto;
+        display: block;
+    }
+}
+
+/**********************
+NAVIGATION 
+**********************/
+
+#nav {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgb(0, 0, 0, 0.53);
+    list-style-type: none;
+    display: block;
+    text-decoration: none;
+    padding: 8px 16px;
+    width: 100vw;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    padding: 4px 6px;
+    margin: 4px 10px;
+}
+
+li a:hover {
+    background-color: rgb(0, 0, 0, 0.4);
+    color: rgb(160, 160, 160);
+    transition: all 1s;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+.active{
+    border-bottom: 4px solid #fff;
+}
+
+.dropdown{
+    position: absolute;
+    top: 87%;
+    left: 46%;
+    color: #8A3B94;
+    height: 15vh;
+}
+
+@media screen and (max-width: 375px) {
+    .dropdown{
+        height: 10vh;
+        top: 90%;
+        margin: auto;
+    }
+}
+
+
+/********************
+PARK IMPRESSIE MET FOTO'S 
+********************/
+
+.pictures{
+    margin: 40px;
+}
+
+.titel_foto {
+    margin-left: 0.5vw;
+}
+
+.row_foto {
+    margin-left: 2.5vw;
+}
+
+.foto{
+    max-width: 100%;
+    max-height: 80vh;
+    object-fit: cover;
+}
+
+.foto4 {
+    width: 100%;
+    overflow: hidden;
+}
+
+.impressie{
+    float: left;
+}
+
+.bottom{
+    color: #fff;
+    padding-left: 5vw;
+}
+
+.container{
+    width: 100vw;
+    object-fit: cover;
+}
+
+/**********************
+BUTTON
+**********************/
+
+.button {
+    background-color: #8A3B94;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+
+    margin-bottom: 7.5vh;
+    margin: auto;
+    display: block;
+    margin-bottom: 2.5vh;
+  }
+
+  .tag_button{
+    text-align: center;
+  }
+
+/**********************
+FOOTER 
+**********************/
+
+#footer{
+    /* max-height: 15vh; */
+    width: 90vw;
+    margin: auto;
+    display: block;
+}
+
+.text_footer_left {
+    float: left;
+    padding-top: 1vh;
+    color: #000;
+}
+
+.text_footer_right{
+    float: left;
+    color: #000;
+}
+
+/********************
+ICONS
+********************/
+
+.icons{
+    padding-top: 2vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.icon{
+    height: 2vh;
+    /* margin-left: 5px; */
+    color: #8A3B94;
+    /* margin-left: 12.5px; */
+    margin: auto;
+    display: block;
+}
+
+#container_footer{
+    width: 10vw;
+    margin: auto;
+    display: block;
+}
+
+@media screen and (max-width: 375px) {
+    #container_footer{
+        width: 30vw;
+        margin: auto;
+        display: block;
+        margin-top: 2vh;
+    }
+}
